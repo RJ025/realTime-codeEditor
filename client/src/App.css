@@ -1,0 +1,112 @@
+/* @import '@codemirror/basic-setup/style.css'; */
+
+.homePageWrapper{
+  height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #fff;
+ background: #1c1e29;
+}
+.formWrapper{
+ background: gray;
+ padding: 20px;
+ border-radius: 10px;
+ width: 400px;
+ max-width: 90%;
+}
+
+.inputGroup{
+ display: flex;
+ flex-direction: column;
+}
+
+.inputBox{
+ padding: 10px;
+ border-radius: 10px;
+ border: 1px solid black;
+ margin-bottom: 5px;
+ background: #eeee;
+ font-size: 16px;
+ font-weight:bold ;
+}
+
+.btn{
+ border: none;
+ padding: 10px;
+ border-radius: 5px;
+ font-size: 16px;
+ cursor: pointer;
+ transition: 0.3s ease-in-out;
+}
+
+.joinBtn , .leaveBtn{
+ background: green;
+ width: 100px;
+ margin-left: auto;
+ font-weight: bold;
+}
+
+.joinBtn:hover , .leaveBtn:hover{
+ background: darkgreen;
+}
+
+.createNewBtn{
+ color: green;
+ text-decoration: none;
+ font-weight: bold;
+ border-bottom: 1px solid black;
+ width: fit-content;
+}
+
+.mainWrap{
+ display: grid;
+ grid-template-columns: 230px 1fr;
+ height: 100vh;
+}
+
+.aside{
+ background: #1c1e29;
+ padding: 16px;
+ color: #fff;
+ display: flex;
+ flex-direction: column;
+}
+
+.asideInner{
+ flex: 1;
+}
+
+.clientsList{
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 20px;
+ /* flex-direction: column; */
+}
+
+.client{
+ display: flex;
+ flex-direction: column;
+ font-weight: bold;
+}
+.userName {
+ margin-top: 10px;
+}
+
+.copyBtn {
+ margin-bottom: 10px;
+ text-transform: uppercase;
+
+}
+
+.leaveBtn{
+ width: 100%;
+}
+
+.CodeMirror{
+ min-height: calc(100vh - 20px);
+ font-size: 20px;
+ line-height: 1.7;
+ padding-top: 20px;
+}
